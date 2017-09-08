@@ -1,8 +1,21 @@
 @media only screen and (max-width: 576px) {
 
 #slider .text{
+	/*
 	top:50px;
-	left:0px;
+	left:20px;
+	*/
+}
+.about .hovereffect i{
+	width:30px;
+	height:30px;
+	border:1px solid #fff;
+	padding-top: 6px;
+	margin-left:2px;
+	font-size:0.7em;
+	color: #A2Aa12;
+	background: #fff;
+	border-radius: 50%;
 }
 .about .add .add-1{
 	width:100%;
@@ -46,12 +59,8 @@
     margin-left: 1rem;
 }
 .footer .contactUS{
+	margin-top:25%;
 	height:370px;
-	position: absolute;
-	top:40vw;
-	left:0vw;
-	padding-left:3px;
-	padding-right: 3px;
 }
 .footer .contactUS h2{
 	font-size:2em;
@@ -104,21 +113,22 @@
 	padding-top: 5px;
 }
 .img-filtr{
-	min-height: 150px;
-	max-height: 150px;
 	width:100%;
+	min-width: 360px;
 }
 }
 
 @media screen and (min-width: 567px) and (max-width: 768px) { 
 
 #slider .text{
+	/*
 	max-width: 600px;
 	position: absolute;
 	padding: 30px;
 	top:200px;
 	left:50px;
 	background: rgba(0,0,0,.4);
+	*/
 
 }
 .background_quote1{
@@ -143,12 +153,14 @@
 @media screen and (min-width: 769px) and (max-width: 1200px) { 
 
 #slider .text{
+	/*
 	max-width: 600px;
 	position: absolute;
 	padding: 30px;
 	top:200px;
 	left:150px;
 	background: rgba(0,0,0,.4);
+	*/
 }
 .background_quote1{
 	background: url('../img/background_1.jpg') no-repeat;
@@ -165,9 +177,6 @@
 }
 .footer .contactUS{
 	top:7vw;
-}
-.navbar-right{
-	display: none;
 }
 	
 }
