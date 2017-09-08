@@ -9,7 +9,6 @@
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/media.css">
-   <link rel="stylesheet" href="css/animate.css">
 
   <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700" rel="stylesheet">
 
@@ -32,11 +31,11 @@
 
            <div class="collapse navbar-collapse" id="loso-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-left">
-                   <li><a href="#about" class="nav-item" title="about domowa">ABOUT</a></li>
+                   <li><a href="#about" class="nav-item" title="about">ABOUT</a></li>
                     <li><a href="#services" class="nav-item" title="services">SERVICES</a></li>
                    <li><a href="#culture" class="nav-item" title="culture">CULTURE</a></li>    
                      <li><a href="#portfolio" class="nav-item" title="portfolio">PORTFOLIO</a></li>
-                   <li><a href="#contact" class="nav-item" title="Galeria">CONTACT</a></li>
+                   <li><a href="#galeria" class="nav-item" title="contact">CONTACT</a></li>
                       
                 </ul>
                  <ul class="nav navbar-nav navbar-right">
@@ -432,6 +431,30 @@
             $('.filtr-container').filterizr();
         });
     </script>
-    <script src="js/wow.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <script>
+      window.sr = ScrollReveal();
+      sr.reveal('.hovereffect', {
+        duration: 1200,
+        reset: false,
+        origin: 'bottom',
+        distance: '50px',
+        scale: 0.5
+      });
+       sr.reveal('.services-item', {
+         duration: 1200,
+        reset: false,
+        origin: 'bottom',
+        distance: '100px',
+        scale: 0.5
+      });
+       sr.reveal('.contactUS', {
+         duration: 1200,
+        reset: false,
+        origin: 'bottom',
+        distance: '100px',
+        scale: 0.5
+      });
+    </script>
 </body>
 </html>
