@@ -312,7 +312,7 @@ header .fa:hover{
 /*================== services ===============*/
 .services{
 	padding: 4% 0 4% 0;
-	width:100vw;
+	width:100vh;
 }
 .services h2{
 	font-size: 2.8em;
@@ -450,7 +450,7 @@ background: rgba(162, 170, 18, 0.8);
 /* ================ PORTFOLIO ============== */
 .portfolio {
 	padding-top: 4%;
-	width: 100vw;
+	width: 100vh;
 }
 .portfolio h2{
 	font-size: 2.8em;
@@ -504,7 +504,7 @@ background: rgba(162, 170, 18, 0.8);
 /* ============= footer ===========*/
 .footer{
 	background: url(../img/background_footer.jpg) center no-repeat;
-  	width: 100vw;
+  	width: 100vh;
   	min-height: 100vh;
   	background-size: cover;
 	text-align: center;
@@ -516,7 +516,7 @@ background: rgba(162, 170, 18, 0.8);
 .footer .overlay{
 	background: rgba(0,0,0,.2);
 	height:100%;
-    width: 100vw;
+    width: 100vh;
   	min-height: 100%;
   	position: absolute;
 
