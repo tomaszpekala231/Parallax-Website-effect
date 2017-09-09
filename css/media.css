@@ -6,6 +6,9 @@
 	left:20px;
 	*/
 }
+html{
+	overflow-x: hidden;
+}
 
 .about .hovereffect i{
 	width:30px;
