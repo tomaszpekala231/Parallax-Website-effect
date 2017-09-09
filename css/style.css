@@ -503,7 +503,7 @@ background: rgba(162, 170, 18, 0.8);
 /* ============= footer ===========*/
 .footer{
 	background: url(../img/background_footer.jpg) center no-repeat;
-  	width: 100vh;
+  	width: 100vw;
   	min-height: 100%;
   	background-size: cover;
 	text-align: center;
@@ -516,7 +516,7 @@ background: rgba(162, 170, 18, 0.8);
 .footer .overlay{
 	background: rgba(0,0,0,.2);
 	height:100%;
-    width: 100vh;
+    width: 100vw;
   	min-height: 100%;
   	position: absolute;
 
