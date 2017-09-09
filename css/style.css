@@ -16,7 +16,7 @@ body,html{
 }
 /*====================  NAVBAR =====================*/
 header{
-	position: relative;
+	position: relative; 
 	width:100vw;
 }
 .navbar2{
