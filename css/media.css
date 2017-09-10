@@ -120,6 +120,13 @@ html{
 .img-filtr{
 	width:100%;
 	min-width: 350px;
+	margin-left:-1rem;
+}
+.item-desc{
+	margin-left:-1rem;
+}
+.simplefilter li{
+	margin:0;
 }
 }
 
