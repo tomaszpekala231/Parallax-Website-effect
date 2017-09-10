@@ -65,7 +65,7 @@ html{
 .footer .contactUS{
 	margin-top:25%;
 	height:370px;
-	left:1vw;
+	left:0vw;
 }
 .footer .contactUS h2{
 	font-size:2em;
@@ -119,7 +119,7 @@ html{
 }
 .img-filtr{
 	width:100%;
-	min-width: 360px;
+	min-width: 350px;
 }
 }
 
