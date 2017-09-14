@@ -32,7 +32,7 @@ header{
 	transition: all 0.3s ease-in-out;
 }
 .navbar-default li a{
-	color:#fff !important;
+	color:#fff !important; 
 }
 .fixed{
 	position: fixed !important;
