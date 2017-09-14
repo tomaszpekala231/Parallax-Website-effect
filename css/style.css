@@ -45,7 +45,7 @@ header{
 			
 }
 .navbar-toggle{
-	margin-right: 10px !important;
+	margin-right: 20px !important;
 }
 /* social media */
 header .fa{
@@ -89,6 +89,9 @@ header .fa:hover{
 	position: relative;;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
+	display: flex;
+	align-items: center;
+	align-self: center;
  }
   	#slide2{
   	background: url(../img/slider2.jpg)center no-repeat;
@@ -98,6 +101,9 @@ header .fa:hover{
 	position: relative;;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
+	display: flex;
+	align-items: center;
+	align-self: center;
 }
   	#slide3{
   	background: url(../img/slider3.jpg)center no-repeat;
@@ -107,18 +113,19 @@ header .fa:hover{
 	position: relative;;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
+	display: flex;
+	align-items: center;
+	align-self: center;
 }
 .carousel-indicators{
 	padding-bottom: 100px;
 }
-#slider .text_slide{
-	margin-top:25%;
-}
+
 #slider .text{
 	color:#fff;
-	max-width: 600px;
 	padding: 30px;
-	background: rgba(0,0,0,.4);
+	max-width: 600px;
+	background: rgba(0,0,0,.5);
 
 }
 /* ============== about ================ */
