@@ -135,10 +135,10 @@ html{
 	width:100%;
 	min-width: 310px;
 	max-width: 310px;
-	margin-left:-0.5rem;
+	margin-left:-1rem;
 }
 .item-desc{
-	margin-left:0rem;
+	margin-left:-1rem;
 	min-width: 310px;
 	max-width: 310px;
 }
