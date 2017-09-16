@@ -1,3 +1,17 @@
+@media only screen and (max-width: 330px) {
+	.img-filtr{
+	width:100%;
+	min-width: 290px;
+	max-width: 290px;
+	margin-left:-0.5rem;
+}
+.item-desc{
+	width:100%;
+	min-width: 290px;
+	max-width: 290px;
+	margin-left:-0.5rem;
+}
+}
 @media only screen and (max-width: 576px) {
 
 #slider .text{
