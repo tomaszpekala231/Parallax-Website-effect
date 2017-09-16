@@ -125,6 +125,8 @@ html{
 }
 .item-desc{
 	margin-left:0rem;
+	min-width: 310px;
+	max-width: 310px;
 }
 .simplefilter li{
 	margin:0;
