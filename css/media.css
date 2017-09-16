@@ -120,7 +120,7 @@ html{
 .img-filtr{
 	width:100%;
 	min-width: 350px;
-	margin-left:-1rem;
+	margin-left:0rem;
 }
 .item-desc{
 	margin-left:-1rem;
