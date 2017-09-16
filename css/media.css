@@ -3,13 +3,13 @@
 	width:100%;
 	min-width: 290px;
 	max-width: 290px;
-	margin-left:-0.5rem;
+	margin-left:0rem;
 }
 .item-desc{
 	width:100%;
 	min-width: 290px;
 	max-width: 290px;
-	margin-left:-0.5rem;
+	margin-left:0rem;
 }
 }
 @media only screen and (max-width: 576px) {
@@ -135,8 +135,10 @@ html{
 	width:100%;
 	min-width: 310px;
 	max-width: 310px;
+	margin-left:1rem;
 }
 .item-desc{
+	margin-left:1rem;
 	min-width: 310px;
 	max-width: 310px;
 }
